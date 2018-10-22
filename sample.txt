@@ -1,0 +1,175 @@
+Switch to GitHub in PC Config :
+------------------------------------------
+1. git config --global user.name "gitUsername"
+
+2. git config --global user.email "gitMailId"
+
+3. git init
+
+4. git status
+
+5. vi file1.txt
+	We will get VI Editor :
+		[press] i 	--> To insert text
+		--------Some Text--------
+		[press] Esc
+		[press] :wq	--> To Write the file and quit
+								(or)
+						Save and close file
+
+6. git status		--> Check for status, if file exists or not 
+	Now you can see the file1.txt  is Exists
+
+7. git add file1.txt --> Now File we just added to git
+
+8. git status		 --> Check for status, if file added or not
+
+9. git commit -m "Created sample text file"	 
+	--> Now the every file & any actions will be commited now to Complete
+
+10. git status		--> we can check, if the file commited or not
+
+11. git log 	--> By this command,we check who,when & what commited details
+
+12. git log -n 1 -->we can check last number of files submitted...! by number.
+
+13. Steps to Follow :
+	13.1 Create New Repository >> "student"
+	13.2 Don't Check anyThing
+	13.3. Click on create
+
+
+14. Do this steps :
+	14.1 git remote add origin https://github.com/alexVinod/student.git
+			--> We said to push to this "student.git" has remote method
+
+	14.2 git push -u origin master
+			--> This is to push the File into gitRepo "student"
+			--> If it askes any,
+				 Username & Password of gitHub 
+				 [Enter(Username)--(Password)]
+				 Login
+
+
+
+
+file:///C:/Program%20Files/Git/mingw64/share/doc/git-doc/gittutorial.html
+-------------------------------------------------------------------------
+1.sudo apt-get install git
+2.Do someOperations on git like signUp and some content
+3.git init
+4.see Hidden files Ctrl + H
+5.Check Permissions by ll
+6.git status (to check status)
+7.git clone (link: https://github.com/alexVinod/Web.git)
+8.git status (check status of git)
+9.cd ProjectFolder
+10.git status
+11.git add --all
+12.git commit -m 'about project description'
+13.git push origin master
+	Username and Password
+14.git status
+15.git log
+
+
+
+
+
+16. username and password
+
+9.  git config --global user.email "you@example.com"
+	git config --global user.name "Your Name"
+.git commit -m 'MyProjects'
+
+
+
+
+
+
+
+-----------------------------------------------
+Adding Branch
+===============================================
+1.git branch
+2.git branch king
+3.git checkout king (changing branches)
+4.git push origin king
+
+
+Switching a another Branch
+=================================================
+1.git checkout -b branch_name
+
+
+For Checking Difference in file/directories
+=================================================
+1.git diff
+
+Add the files and commit it
+================================================
+1.git add .
+2.git commit -m 'description'
+
+Check for git log and push
+===============================================
+1.git log --oneline --graph --decorate --all
+2.git push origin branch_name
+
+git show particular file
+================================================
+1.git show 5966b66
+
+
+
+@ .Staying In Sync With A Remote Repo's
+
+-+-+-+-+-+-+-+-+-+-+-
+Squash Commits
+-+-+-+-+-+-+-+-+-+-+-
+git making as rebase
+===============================================
+1.git rebase -i HEAD~3
+2. Try some :
+	git rebase --edit-todo
+	git rebase --continue
+
+
+Check for git log and push
+===============================================
+1.git log --oneline --graph --decorate --all
+2.git push origin branch_name
+3.git push -f origin branch_name
+
+
+git remote access
+====================================
+1.git remote -v
+
+
+
+
+
+
+Git Steps:
+---------------
+
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/alexVinod/student.git
+git push -u origin master
+
+
+
+
+
+
+
+
+
+
+
+
+
+sudo chmod 777 'folder/file Name'
